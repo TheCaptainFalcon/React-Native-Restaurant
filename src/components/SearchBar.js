@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { TextInput } from 'react-native-gesture-handler';
+import yelp from '../api/yelp';
 
 const SearchBar = ( { term, onTermChange, onTermSubmit }) => {
     return (
